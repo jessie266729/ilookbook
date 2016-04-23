@@ -1,0 +1,85 @@
+[ 2016-04-21T12:51:14+08:00 ] ::1 /thinkj/book/index.php
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-04-21T12:52:59+08:00 ] ::1 /thinkj/book/index.php
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-04-21T12:53:49+08:00 ] ::1 /thinkj/book/index.php
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-04-21T12:53:49+08:00 ] ::1 /thinkj/book/index.php
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-04-21T12:53:50+08:00 ] ::1 /thinkj/book/index.php
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-04-21T12:53:50+08:00 ] ::1 /thinkj/book/index.php
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-04-21T12:53:50+08:00 ] ::1 /thinkj/book/index.php
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-04-21T12:53:52+08:00 ] ::1 /thinkj/book/index.php
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-04-21T12:53:52+08:00 ] ::1 /thinkj/book/index.php
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-04-21T12:53:52+08:00 ] ::1 /thinkj/book/index.php
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-04-21T12:53:53+08:00 ] ::1 /thinkj/book/index.php
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-04-21T13:42:55+08:00 ] ::1 /thinkj/book/index.php?Home/Index/index
+ERR: Syntax Error in template "D:/wamp/www/thinkj/book/Home/View\Index\index.html"  on line 19 "{foreach $v=$k}"  - Unexpected "=", expected one of: "}" , " "
+
+[ 2016-04-21T13:43:05+08:00 ] ::1 /thinkj/book/index.php?Home/Index/index
+ERR: Syntax Error in template "D:/wamp/www/thinkj/book/Home/View\Index\index.html"  on line 19 "{foreach $v=$k}"  - Unexpected "=", expected one of: "}" , " "
+
+[ 2016-04-21T13:43:06+08:00 ] ::1 /thinkj/book/index.php?Home/Index/index
+ERR: Syntax Error in template "D:/wamp/www/thinkj/book/Home/View\Index\index.html"  on line 19 "{foreach $v=$k}"  - Unexpected "=", expected one of: "}" , " "
+
+[ 2016-04-21T13:43:06+08:00 ] ::1 /thinkj/book/index.php?Home/Index/index
+ERR: Syntax Error in template "D:/wamp/www/thinkj/book/Home/View\Index\index.html"  on line 19 "{foreach $v=$k}"  - Unexpected "=", expected one of: "}" , " "
+
+[ 2016-04-21T13:44:43+08:00 ] ::1 /thinkj/book/index.php?Home/Index/index
+ERR: Syntax Error in template "D:/wamp/www/thinkj/book/Home/View\Index\index.html"  on line 19 "{foreach $v=$k}"  - Unexpected "=", expected one of: "}" , " "
+
+[ 2016-04-21T13:44:44+08:00 ] ::1 /thinkj/book/index.php?Home/Index/index
+ERR: Syntax Error in template "D:/wamp/www/thinkj/book/Home/View\Index\index.html"  on line 19 "{foreach $v=$k}"  - Unexpected "=", expected one of: "}" , " "
+
+[ 2016-04-21T13:51:01+08:00 ] ::1 /thinkj/book/index.php?Home/Index/index
+ERR: Syntax Error in template "D:/wamp/www/thinkj/book/Home/View\Index\index.html"  on line 19 "{foreach $v=$k}"  - Unexpected "=", expected one of: "}" , " "
+
+[ 2016-04-21T13:51:02+08:00 ] ::1 /thinkj/book/index.php?Home/Index/index
+ERR: Syntax Error in template "D:/wamp/www/thinkj/book/Home/View\Index\index.html"  on line 19 "{foreach $v=$k}"  - Unexpected "=", expected one of: "}" , " "
+
+[ 2016-04-21T13:51:03+08:00 ] ::1 /thinkj/book/index.php?Home/Index/index
+ERR: Syntax Error in template "D:/wamp/www/thinkj/book/Home/View\Index\index.html"  on line 19 "{foreach $v=$k}"  - Unexpected "=", expected one of: "}" , " "
+
+[ 2016-04-21T14:02:58+08:00 ] ::1 /thinkj/book/index.php?Home/Index/index
+ERR: 1064:Erreur de syntaxe près de '(10)' à la ligne 1
+ [ SQL语句 ] : select * from c_poem limit(10)
+
+[ 2016-04-21T16:36:49+08:00 ] ::1 /thinkj/book/index.php/Home/Pdetail/pdetail_show
+ERR: 参数错误或者未定义:p_id
+
+[ 2016-04-21T16:40:16+08:00 ] ::1 /thinkj/book/index.php/Home/Pdetail/pdetail_show/p_id/3
+ERR: Syntax Error in template "D:/wamp/www/thinkj/book/Home/View\Pdetail\pdetail_show.html"  on line 14 "&lt;h1&gt;{$detail.}&lt;/h1&gt;"  - Unexpected "}", expected one of: "{" , "$" , "identifier" , INTEGER
+
+[ 2016-04-21T16:52:25+08:00 ] ::1 /thinkj/book/index.php/Home/Pdetail/pdetail_show/p_id/3
+ERR: Syntax Error in template "D:/wamp/www/thinkj/book/Home/View\Pdetail\pdetail_show.html"  on line 13 "{foreach $detail $k=&gt;$v}"  - Unexpected "=>", expected one of: "}" , " "
+
+[ 2016-04-21T17:01:14+08:00 ] ::1 /thinkj/book/index.php/Home/Index/index
+ERR: 1064:Erreur de syntaxe près de 'order by id asc' à la ligne 1
+ [ SQL语句 ] : select * from c_poem limit 0,20 order by id asc
+
+[ 2016-04-21T17:01:25+08:00 ] ::1 /thinkj/book/index.php/Home/Index/index
+ERR: 1064:Erreur de syntaxe près de 'orderby id asc' à la ligne 1
+ [ SQL语句 ] : select * from c_poem limit 0,20 orderby id asc
+
+[ 2016-04-21T17:03:02+08:00 ] ::1 /thinkj/book/index.php/Home/Index/index
+ERR: 1064:Erreur de syntaxe près de 'order by id' à la ligne 1
+ [ SQL语句 ] : select * from c_poem limit 0,20 order by id
+

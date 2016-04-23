@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>smarty test</title>
+		<style>
+			.s_name{
+				margin-top: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		{section name=list loop=$title}
+		<div class="s_name">{$title[list].name}:</div>
+		<div class="s_time">{$title[list].date}。</div>
+		{/section}
+
+		<div><span>{$row[0]}</span><span>{$row[1]}</span><span>{$row[2]}</span></div>
+	</body>
+</html>

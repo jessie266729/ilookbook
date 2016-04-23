@@ -1,0 +1,19 @@
+[ 2016-03-31T09:55:24+08:00 ] ::1 /thinkj/shop/index.php/Admin/Manager/User_Login.css
+ERR: 非法操作:User_Login.css
+
+[ 2016-03-31T09:57:18+08:00 ] ::1 /thinkj/shop/index.php/Admin/Manager/loginhl/zh-tw
+ERR: 非法操作:loginhl
+
+[ 2016-03-31T12:37:55+08:00 ] ::1 /thinkj/shop/index.php/Admin/Manager/verfyImg
+ERR: 非法操作:verfyImg
+
+[ 2016-03-31T14:35:00+08:00 ] ::1 /thinkj/shop/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2016-03-31T14:40:27+08:00 ] ::1 /thinkj/shop/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2016-03-31T16:12:00+08:00 ] ::1 /thinkj/shop/index.php/Admin/Goods/showlist
+ERR: 1064:Erreur de syntaxe près de '0, 7' à la ligne 1
+ [ SQL语句 ] : select * from sw_goodsLimit 0, 7
+

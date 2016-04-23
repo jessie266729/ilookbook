@@ -1,0 +1,9 @@
+[ 2016-04-14T11:55:41+08:00 ] ::1 /thinkj/shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2016-04-14T15:28:06+08:00 ] ::1 /thinkj/shop/index.php/Admin/Role/distribute/role_id/1
+ERR: Syntax Error in template "D:/wamp/www/thinkj/shop/Admin/View\Role\distribute.html"  on line 32 "&lt;li&gt;{$v.auth_name}&lt;input type=&quot;checkbox&quot; name=&quot;authname[]&quot; value=&quot;{$v.auth_id}&quot; {if(in_array($v.auth_ids_array))}checked=&quot;checked&quot;{/if}&gt;" unknown function "if"
+
+[ 2016-04-14T16:06:31+08:00 ] ::1 /thinkj/shop/index.php/Admin/Auth/showlist
+ERR: Syntax Error in template "D:/wamp/www/thinkj/shop/Admin/View\Auth\showlist.html"  on line 47 "&lt;td&gt;{$v.@iteration}&lt;/td&gt;"  - Unexpected "@", expected one of: "{" , "$" , "identifier" , INTEGER
+

@@ -1,0 +1,33 @@
+[ 2016-04-01T14:44:11+08:00 ] ::1 /thinkj/shop/index.php/Admin/Index/left
+ERR: 1064:Erreur de syntaxe près de '' à la ligne 1
+ [ SQL语句 ] : select * from sw_manager where mg_id=
+
+[ 2016-04-01T14:44:31+08:00 ] ::1 /thinkj/shop/index.php/Admin/Index/left
+ERR: 1064:Erreur de syntaxe près de '' à la ligne 1
+ [ SQL语句 ] : select * from sw_manager where mg_id=
+
+[ 2016-04-01T15:14:45+08:00 ] ::1 /thinkj/shop/index.php/Admin/Index/left
+ERR: Syntax Error in template "D:/wamp/www/thinkj/shop/Admin/View\Index\left.html"  on line 31 "{foreach $auth_info as $k=$v}"  - Unexpected "=", expected one of: "}" , " "
+
+[ 2016-04-01T15:20:09+08:00 ] ::1 /thinkj/shop/index.php/Admin/Index/left
+ERR: 1064:Erreur de syntaxe près de 'auth_id in (1,2,25,3,4,8,9)' à la ligne 1
+ [ SQL语句 ] : select * from sw_auth where auth_level=0 auth_id in (1,2,25,3,4,8,9)
+
+[ 2016-04-01T15:20:48+08:00 ] ::1 /thinkj/shop/index.php/Admin/Index/left
+ERR: 1064:Erreur de syntaxe près de 'adn auth_id in (1,2,25,3,4,8,9)' à la ligne 1
+ [ SQL语句 ] : select * from sw_auth where auth_level=1 adn auth_id in (1,2,25,3,4,8,9)
+
+[ 2016-04-01T15:20:49+08:00 ] ::1 /thinkj/shop/index.php/Admin/Index/left
+ERR: 1064:Erreur de syntaxe près de 'adn auth_id in (1,2,25,3,4,8,9)' à la ligne 1
+ [ SQL语句 ] : select * from sw_auth where auth_level=1 adn auth_id in (1,2,25,3,4,8,9)
+
+[ 2016-04-01T17:05:03+08:00 ] ::1 /thinkj/shop/index.php/Admin/Goods/del
+ERR: Unable to load template file 'w\thinkj\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2016-04-01T17:37:01+08:00 ] ::1 /thinkj/shop/index.php/Admin/Manager/showlist
+ERR: 非法操作:showlist
+
+[ 2016-04-01T18:03:52+08:00 ] ::1 /thinkj/shop/index.php/Admin/Role/distribute/role_id/0
+ERR: 1146:La table 'shop.sw_sw_role' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `sw_sw_role`
+

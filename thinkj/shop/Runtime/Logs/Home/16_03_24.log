@@ -1,0 +1,73 @@
+[ 2016-03-24T15:54:43+08:00 ] ::1 /thinkj/shop/index.php?m=home&c=index&c=hello
+ERR: 无法加载控制器:Hello
+
+[ 2016-03-24T15:54:54+08:00 ] ::1 /thinkj/shop/index.php?m=Home&c=index&c=hello
+ERR: 无法加载控制器:Hello
+
+[ 2016-03-24T15:55:04+08:00 ] ::1 /thinkj/shop/index.php?m=Home&c=Index&c=hello
+ERR: 无法加载控制器:Hello
+
+[ 2016-03-24T16:35:06+08:00 ] ::1 /thinkj/shop/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2016-03-24T16:36:44+08:00 ] ::1 /thinkj/shop/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2016-03-24T16:59:30+08:00 ] ::1 /thinkj/shop/index.php/Home/User/login
+ERR: 模板不存在:D:/wamp/www/thinkj/shop/Home/View/User/login.html
+
+[ 2016-03-24T17:26:41+08:00 ] ::1 /thinkj/shop/index.php/Home/User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-03-24T17:30:12+08:00 ] ::1 /thinkj/shop/index.php/Home/User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-03-24T17:30:13+08:00 ] ::1 /thinkj/shop/index.php/Home/User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-03-24T17:30:13+08:00 ] ::1 /thinkj/shop/index.php/Home/User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-03-24T17:30:13+08:00 ] ::1 /thinkj/shop/index.php/Home/User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-03-24T17:30:14+08:00 ] ::1 /thinkj/shop/index.php/Home/User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-03-24T17:30:14+08:00 ] ::1 /thinkj/shop/index.php/Home/User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-03-24T17:30:14+08:00 ] ::1 /thinkj/shop/index.php/Home/User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-03-24T17:30:14+08:00 ] ::1 /thinkj/shop/index.php/Home/User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-03-24T17:30:15+08:00 ] ::1 /thinkj/shop/index.php/Home/User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-03-24T17:32:07+08:00 ] ::1 /thinkj/shop/index.php/Home/User/public/css/style.css
+ERR: 非法操作:public
+
+[ 2016-03-24T17:32:08+08:00 ] ::1 /thinkj/shop/index.php/Home/User/public/css/style.css
+ERR: 非法操作:public
+
+[ 2016-03-24T17:32:26+08:00 ] ::1 /thinkj/shop/index.php/Home/User/public/css/style.css
+ERR: 非法操作:public
+

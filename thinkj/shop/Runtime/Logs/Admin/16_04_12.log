@@ -1,0 +1,39 @@
+[ 2016-04-12T11:40:20+08:00 ] ::1 /thinkj/shop/index.php/Admin/Index/index.html
+ERR: 1064:Erreur de syntaxe près de '' à la ligne 3
+ [ SQL语句 ] : select role_auth_ac from sw_manager as a join
+		 sw_role as b on a.mg_role_id=b.role_id where 
+		 a.mg_id=
+
+[ 2016-04-12T11:40:37+08:00 ] ::1 /thinkj/shop/index.php/Admin/Index/index
+ERR: 1064:Erreur de syntaxe près de '' à la ligne 3
+ [ SQL语句 ] : select role_auth_ac from sw_manager as a join
+		 sw_role as b on a.mg_role_id=b.role_id where 
+		 a.mg_id=
+
+[ 2016-04-12T11:40:55+08:00 ] ::1 /thinkj/shop/index.php/Admin/Role/showlist
+ERR: 1064:Erreur de syntaxe près de '' à la ligne 3
+ [ SQL语句 ] : select role_auth_ac from sw_manager as a join
+		 sw_role as b on a.mg_role_id=b.role_id where 
+		 a.mg_id=
+
+[ 2016-04-12T17:36:24+08:00 ] ::1 /thinkj/shop/index.php/Admin/Goods/showlist
+ERR: 1064:Erreur de syntaxe près de '' à la ligne 3
+ [ SQL语句 ] : select role_auth_ac from sw_manager as a join
+		 sw_role as b on a.mg_role_id=b.role_id where 
+		 a.mg_id=
+
+[ 2016-04-12T17:54:30+08:00 ] ::1 /thinkj/shop/index.php/Admin/User/pinglun
+ERR: 无法加载控制器:User
+
+[ 2016-04-12T17:54:34+08:00 ] ::1 /thinkj/shop/index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2016-04-12T17:54:40+08:00 ] ::1 /thinkj/shop/index.php/Admin/Order/view
+ERR: 无法加载控制器:Order
+
+[ 2016-04-12T17:54:42+08:00 ] ::1 /thinkj/shop/index.php/Admin/Article/showlist
+ERR: 无法加载控制器:Article
+
+[ 2016-04-12T17:54:46+08:00 ] ::1 /thinkj/shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+

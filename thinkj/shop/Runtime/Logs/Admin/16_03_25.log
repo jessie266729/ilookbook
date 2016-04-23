@@ -1,0 +1,35 @@
+[ 2016-03-25T14:18:59+08:00 ] ::1 /thinkj/shop/index.php/Admin/Manager/head
+ERR: 非法操作:head
+
+[ 2016-03-25T14:21:54+08:00 ] ::1 /thinkj/shop/index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2016-03-25T14:22:02+08:00 ] ::1 /thinkj/shop/index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2016-03-25T14:37:40+08:00 ] ::1 /thinkj/shop/index.php/Admin/right
+ERR: 无法加载控制器:Right
+
+[ 2016-03-25T14:37:40+08:00 ] ::1 /thinkj/shop/index.php/Admin/left
+ERR: 无法加载控制器:Left
+
+[ 2016-03-25T14:55:54+08:00 ] ::1 /thinkj/shop/index.php/Admin/Index/_CONTROLLER_left
+ERR: 非法操作:_CONTROLLER_left
+
+[ 2016-03-25T14:55:54+08:00 ] ::1 /thinkj/shop/index.php/Admin/Index/_CONTROLLER_head
+ERR: 非法操作:_CONTROLLER_head
+
+[ 2016-03-25T14:55:54+08:00 ] ::1 /thinkj/shop/index.php/Admin/Index/_CONTROLLER_right
+ERR: 非法操作:_CONTROLLER_right
+
+[ 2016-03-25T17:46:47+08:00 ] ::1 /thinkj/shop/index.php/Admin/Goods/showlist
+ERR: 1146:La table 'shop.sw_goods' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `sw_goods`
+
+[ 2016-03-25T17:47:35+08:00 ] ::1 /thinkj/shop/index.php/Admin/Goods/showlist
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-03-25T18:02:39+08:00 ] ::1 /thinkj/shop/index.php/Admin/Goods/showlist
+ERR: 1146:La table 'shop.tencent_qq' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `tencent_qq`
+

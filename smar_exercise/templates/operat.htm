@@ -1,0 +1,42 @@
+{foreach from=$val item=id}
+数组内容：{$id}<br/>
+{/foreach}
+{foreach from=$test item=id key=k}
+数组内容：{$k}-{$id}<br/>
+{/foreach}
+{include file="head.htm" title="这是个首页"}
+{if $vall==""}
+什么都没有
+{else}
+里面有东西的
+{/if}
+<!-- 让js大括号代码在html中与php不冲突 -->
+{literal}
+<script language="javascript">
+	function isblank(field){
+		if(field == ""){
+			alert("test");
+		}else{
+			alert("test");
+		}
+	}
+	alert("still test");
+</script>
+{/literal}
+<!-- 让代码一行显示 -->
+{strip}
+<table>
+	<tr>
+		<td>
+			<a href=""><font color="red">This is a test</font></a>
+		</td>
+	</tr>
+</table>
+{/strip}
+<table>
+	<tr>
+		<td>
+			<a href=""><font color="blue">This is a test</font></a>
+		</td>
+	</tr>
+</table>
