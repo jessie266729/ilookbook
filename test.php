@@ -1,6 +1,6 @@
 <?php
 header('Content-Type:text/html;charset=utf-8');
-echo "我想测试一下，你好！";
+echo "我想测试一下，本地接收成功，你好！";
 echo "<br>";
 echo "希望和上面一行是换行输出的效果。<br>";
 // 变量
