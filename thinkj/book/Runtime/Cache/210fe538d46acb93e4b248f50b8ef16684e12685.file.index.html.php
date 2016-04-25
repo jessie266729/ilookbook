@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-04-22 17:08:51
+<?php /* Smarty version Smarty-3.1.6, created on 2016-04-25 19:16:10
          compiled from "D:/wamp/www/thinkj/book/Home/View\Index\index.html" */ ?>
 <?php /*%%SmartyHeaderCode:323157186a7bcb8c74-04577685%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '210fe538d46acb93e4b248f50b8ef16684e12685' => 
     array (
       0 => 'D:/wamp/www/thinkj/book/Home/View\\Index\\index.html',
-      1 => 1461315460,
+      1 => 1461582851,
       2 => 'file',
     ),
   ),
@@ -103,7 +103,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
                 </div>
             </div>
             <div class="j-part-head">
-                <p class="m-head">诗词大全</p><p class="m-more">更多>></p>
+                <p class="m-head">诗词大全>></p>
             </div>
             <ul class="j-parts part-poem">
                 <?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
@@ -121,7 +121,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
                 <?php } ?>
             </ul>
             <div class="j-part-head">
-                <p class="m-head">成语大全</p><p class="m-more">更多>></p>
+                <p class="m-head">成语大全>></p>
             </div>
             <ul class="j-parts part-idiom">
                 <?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;

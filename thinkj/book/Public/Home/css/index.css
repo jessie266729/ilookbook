@@ -29,12 +29,12 @@ body{
     text-align: center;
 }
 .j-ad{
-	height: 500px;
+	height: 540px;
 	padding: 30px 20px;
 }
 .j-ad .new-push{
 	padding: 0;
-	width: 600px;
+	width: 620px;
 }
 .j-parts{
 	list-style: square inside;
@@ -48,7 +48,7 @@ body{
 }
 .j-part-head{
 	background: #e0e0e0;
-	padding: 10px;
+	padding: 10px 20px;
 	overflow: hidden;
 	clear: both;
 }
@@ -76,10 +76,6 @@ a:hover{
 	color: red;
 }
 .m-head{
-	float: left;
-	font-size: 18px;
-}
-.m-more{
 	float: right;
 	font-size: 18px;
 }
