@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-04-21 17:45:35
+<?php /* Smarty version Smarty-3.1.6, created on 2016-04-25 16:08:03
          compiled from "D:/wamp/www/thinkj/book/Home/View\Pdetail\pdetail_show.html" */ ?>
 <?php /*%%SmartyHeaderCode:676557188b0cac5c39-15273084%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f3b56f844d478f348bb54959a5e67f1bb99b17bb' => 
     array (
       0 => 'D:/wamp/www/thinkj/book/Home/View\\Pdetail\\pdetail_show.html',
-      1 => 1461231916,
+      1 => 1461571675,
       2 => 'file',
     ),
   ),
@@ -50,8 +50,8 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
         		<a class="p-author" href=""><?php echo $_smarty_tpl->tpl_vars['author']->value['a_name'];?>
 </a><span class="p-dynasty"><?php echo $_smarty_tpl->tpl_vars['author']->value['a_dynasty'];?>
 </span>
-                <p class="p-content"><?php echo $_smarty_tpl->tpl_vars['v']->value['p_content'];?>
-</p>
+                <div class="p-content"><?php echo $_smarty_tpl->tpl_vars['v']->value['p_content'];?>
+</div>
         	</div>
         	<div>
         		<h3 class="p-part-title">注释</h3>
