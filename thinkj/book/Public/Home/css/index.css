@@ -6,6 +6,7 @@
 body{
 	font-size: 14px;
 	font-family: "微软雅黑";
+	background: #DFDFE1;
 }
 .j-nav{
 	width: 100%;
@@ -28,8 +29,8 @@ body{
     text-align: center;
 }
 .j-ad{
-	height: 540px;
-	padding: 30px 20px;
+	height: 555px;
+	padding: 20px;
 }
 .j-ad .new-push{
 	padding: 0;
@@ -39,17 +40,20 @@ body{
 	list-style: square inside;
     overflow: hidden;
     float: left;
-    padding: 0 35px 20px;
+    padding: 0 38px 20px;
 }
 .j-parts li{
 	float: left;
 	line-height: 29px;
 }
 .j-part-head{
-	background: #f0f0f0;
-	padding: 10px 20px;
+    overflow: hidden;
+    width: 50px;
+    float: left;
+    margin: 20px;
+}
+.j-floor{
 	overflow: hidden;
-	clear: both;
 }
 a:link{
 	color: #333333;
@@ -71,19 +75,17 @@ a:hover{
 .part-idiom li{
 	width: 16%;
 }
-.m-author{
-	color: red;
-}
-.m-head{
-	font-size: 18px;
+.part-idiom,.part-poem{
+	width: 830px;
 }
 .new-targe{
 	float: left;
     width: 200px;
-    padding-top: 26px;
+    padding-top: 45px;
 }
 .new-targe h5{
 	margin-top: 10px;
+	color: red;
 }
 .new-targe li{
 	height: 25px;
@@ -103,7 +105,17 @@ a:hover{
     width: 1px;
     height: 400px;
     border: 1px #e0e0e0 solid;
-    margin: 60px 37px 0 20px;
+    margin: 83px 37px 0 20px;
+}
+.new-floor{
+	color: red;
+    border: 3px red solid;
+    width: 70px;
+    height: 70px;
+    border-radius: 34px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
 }
 .push-content{
 	margin: 10px 0;
@@ -121,4 +133,28 @@ a:hover{
 }
 .push-head h3{
 	float: left;
+}
+.m-author{
+	color: red;
+}
+.m-head{
+	font-size: 20px;
+    width: 50px;
+    padding: 5px 15px;
+}
+.m-floor{
+	width: 50px;
+    height: 50px;
+    border: 2px red solid;
+    font-size: 33px;
+    text-align: center;
+    border-radius: 25px;
+    color: red;
+    line-height: 46px;
+    cursor: pointer;
+}
+.m-hr{
+    width: 637px;
+    margin: 50px auto;
+    border: 1px #e0e0e0 solid;
 }
