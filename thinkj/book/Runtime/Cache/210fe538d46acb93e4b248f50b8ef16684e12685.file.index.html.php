@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-04-27 10:55:17
+<?php /* Smarty version Smarty-3.1.6, created on 2016-04-27 13:17:05
          compiled from "D:/wamp/www/thinkj/book/Home/View\Index\index.html" */ ?>
 <?php /*%%SmartyHeaderCode:323157186a7bcb8c74-04577685%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '210fe538d46acb93e4b248f50b8ef16684e12685' => 
     array (
       0 => 'D:/wamp/www/thinkj/book/Home/View\\Index\\index.html',
-      1 => 1461725714,
+      1 => 1461734180,
       2 => 'file',
     ),
   ),
@@ -38,6 +38,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <body>
         <div class="j-nav"></div>
         <div class="j-clear-fix"></div>
+        <div class="search-row">
+            <div class="index-search-style"><input type="text" class="index-search" id="index_search"/><label for="index_search" class="index-search-text">搜索</label></div>
+        </div>
         <div class="j-content">
             <div class="j-ad">
                 <div class="j-parts new-push">
