@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-04-26 18:07:33
+<?php /* Smarty version Smarty-3.1.6, created on 2016-04-27 10:55:17
          compiled from "D:/wamp/www/thinkj/book/Home/View\Index\index.html" */ ?>
 <?php /*%%SmartyHeaderCode:323157186a7bcb8c74-04577685%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '210fe538d46acb93e4b248f50b8ef16684e12685' => 
     array (
       0 => 'D:/wamp/www/thinkj/book/Home/View\\Index\\index.html',
-      1 => 1461665247,
+      1 => 1461725714,
       2 => 'file',
     ),
   ),
@@ -90,6 +90,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
                         <li><a href="">相濡以沫，不如相忘于江湖</a></li>
                         <li><a href="">相濡以沫，不如相忘于江湖</a></li>
                     </ul>
+                    <h5 class="new-more"><a href="">更多>></a></h5>
                 </div>
             </div>
             <div class="m-hr"></div>
@@ -111,6 +112,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 )</span><span class="m-title">《<?php echo $_smarty_tpl->tpl_vars['v']->value['title'];?>
 》</span></a></li>
                     <?php } ?>
+                    <li class="m-more"><a href="">更多>></a></li>
                 </ul>
             </div>
             <div class="m-hr"></div>
@@ -130,6 +132,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 " target="_blank"><span class="m-title"><?php echo $_smarty_tpl->tpl_vars['v']->value['content'];?>
 </span></a></li>
                     <?php } ?>
+                    <li class="m-more"><a href="">更多>></a></li>
                 </ul>
             </div>
         </div>

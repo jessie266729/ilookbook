@@ -49,6 +49,7 @@
                         <li><a href="">相濡以沫，不如相忘于江湖</a></li>
                         <li><a href="">相濡以沫，不如相忘于江湖</a></li>
                     </ul>
+                    <h5 class="new-more"><a href="">更多>></a></h5>
                 </div>
             </div>
             <div class="m-hr"></div>
@@ -60,6 +61,7 @@
                     {foreach $poems as $k=>$v}
                     <li><a href="{$smarty.const.__MODULE__}/Pdetail/pdetail_show/p_id/{$v.id}" target="_blank"><span class="m-author">({$v.author})</span><span class="m-title">《{$v.title}》</span></a></li>
                     {/foreach}
+                    <li class="m-more"><a href="">更多>></a></li>
                 </ul>
             </div>
             <div class="m-hr"></div>
@@ -71,6 +73,7 @@
                     {foreach $idiom as $k=>$v}
                     <li><a href="{$v.url}" target="_blank"><span class="m-title">{$v.content}</span></a></li>
                     {/foreach}
+                    <li class="m-more"><a href="">更多>></a></li>
                 </ul>
             </div>
         </div>

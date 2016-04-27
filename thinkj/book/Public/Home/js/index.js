@@ -44,7 +44,7 @@
 				else{
 					deg += 10;
 					if (deg >= 90) 
-						tt.text("...");
+						tt.text("♠");
 					tt.css({'transform':'rotateY('+deg+'deg)','-webkit-transform':'rotateY('+deg+'deg)','-moz-transform':'rotateY('+deg+'deg)','opcity':'0.7'});
 				}
 			},50);
