@@ -1,0 +1,15 @@
+[ 2016-04-27T14:38:00+08:00 ] ::1 /thinkj/book/index.php/Home/Index/index
+ERR: Syntax Error in template "D:/wamp/www/thinkj/book/Home/View\Index\index.html"  on line 21 "&lt;div class=&quot;push-content {if($k == 2) }push-content-last{/if}&quot;&gt;" unknown function "if"
+
+[ 2016-04-27T14:38:57+08:00 ] ::1 /thinkj/book/index.php/Home/Index/index
+ERR: Syntax Error in template "D:/wamp/www/thinkj/book/Home/View\Index\index.html"  on line 21 "&lt;div class=&quot;push-content {if($k == 2)}push-content-last{/if}&quot;&gt;" unknown function "if"
+
+[ 2016-04-27T14:39:01+08:00 ] ::1 /thinkj/book/index.php/Home/Index/index
+ERR: Syntax Error in template "D:/wamp/www/thinkj/book/Home/View\Index\index.html"  on line 21 "&lt;div class=&quot;push-content {if($k == 2)}push-content-last{/if}&quot;&gt;" unknown function "if"
+
+[ 2016-04-27T14:39:01+08:00 ] ::1 /thinkj/book/index.php/Home/Index/index
+ERR: Syntax Error in template "D:/wamp/www/thinkj/book/Home/View\Index\index.html"  on line 21 "&lt;div class=&quot;push-content {if($k == 2)}push-content-last{/if}&quot;&gt;" unknown function "if"
+
+[ 2016-04-27T14:40:46+08:00 ] ::1 /thinkj/book/index.php/Home/Index/index
+ERR: Syntax Error in template "D:/wamp/www/thinkj/book/Home/View\Index\index.html"  on line 21 "&lt;div {if($k == 2)}" unknown function "if"
+

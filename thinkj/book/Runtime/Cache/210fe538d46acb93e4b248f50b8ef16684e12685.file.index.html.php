@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-04-27 13:17:05
+<?php /* Smarty version Smarty-3.1.6, created on 2016-04-27 14:45:08
          compiled from "D:/wamp/www/thinkj/book/Home/View\Index\index.html" */ ?>
 <?php /*%%SmartyHeaderCode:323157186a7bcb8c74-04577685%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '210fe538d46acb93e4b248f50b8ef16684e12685' => 
     array (
       0 => 'D:/wamp/www/thinkj/book/Home/View\\Index\\index.html',
-      1 => 1461734180,
+      1 => 1461739504,
       2 => 'file',
     ),
   ),
@@ -20,6 +20,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'variables' => 
   array (
     'artic' => 0,
+    'k' => 0,
     'v' => 0,
     'poems' => 0,
     'idiom' => 0,
@@ -52,7 +53,8 @@ foreach ($_from as $_smarty_tpl->tpl_vars['v']->key => $_smarty_tpl->tpl_vars['v
 $_smarty_tpl->tpl_vars['v']->_loop = true;
  $_smarty_tpl->tpl_vars['k']->value = $_smarty_tpl->tpl_vars['v']->key;
 ?>
-                    <div class="push-content">
+                    <div class="push-content push-content-<?php echo $_smarty_tpl->tpl_vars['k']->value;?>
+">
                         <div class="push-head">
                             <h3><a href="<?php echo @__MODULE__;?>
 /Article/story/file_name/<?php echo $_smarty_tpl->tpl_vars['v']->value['file_name'];?>
@@ -60,7 +62,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 </a></h3><span class="push-author"><?php echo $_smarty_tpl->tpl_vars['v']->value['author'];?>
 </span>
                         </div>
-                        <a name="data-maxlength 150" href="<?php echo @__MODULE__;?>
+                        <a class="push-tips" name="data-maxlength 150" href="<?php echo @__MODULE__;?>
 /Article/story/file_name/<?php echo $_smarty_tpl->tpl_vars['v']->value['file_name'];?>
 " target="_blank"><?php echo $_smarty_tpl->tpl_vars['v']->value['represent'];?>
 </a>

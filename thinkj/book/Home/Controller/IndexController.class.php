@@ -6,7 +6,7 @@ class IndexController extends Controller {
     	$p_sql = "select * from c_poem order by id  limit 0,40";
     	$poems = D()->query($p_sql);
 
-    	$i_sql = "select * from c_idiom order by id limit 0,80";
+    	$i_sql = "select * from c_idiom order by id limit 0,77";
     	$idiom = D()->query($i_sql);
 
         $a_sql = "select * from c_article order by id limit 0,3";
